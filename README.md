@@ -24,11 +24,7 @@ They sell the source for 40$ and scam their customers💀
 
 ### 〢 preview
 
-<p align="center"> 
-  <kbd>
-<img src="https://www.youtube.com/watch?v=AhA3Gi7iC3U" width="328"></img>
-  </kbd>
-</p>
+https://www.youtube.com/watch?v=AhA3Gi7iC3U
 
 ### 〢 Note
 
