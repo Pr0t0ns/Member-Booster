@@ -24,7 +24,7 @@ They sell the source for 40$ and scam their customers💀
 
 ### 〢 preview
 
-<p align="center"> 
+<p align="left"> 
   <kbd>
 <img src="https://cdn.nest.rip/uploads/cd5327b4-6bb0-4e64-a10c-f8cfbfa430dd.png" width="328"></img>
   </kbd>
