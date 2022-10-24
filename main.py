@@ -6,6 +6,7 @@ from src.modules.discord import Discord
 from src.modules.hcaptcha import solve
 from src.modules.utils import getRandomFinger
 from colorama import init, Fore
+from ui import clear
 
 init()
 
@@ -17,14 +18,6 @@ r = httpx.get("https://raw.githubusercontent.com/mciem-better/member-booster/mai
 if r == __version__:
   console.success(f"gen is uptodate!")
 
-banner = f"""
-{Fore.WHITE}  _____    ___    ____    ____  
-{Fore.WHITE} |  _  |  / __|  | ___|  |  __|                                                   {Fore.LIGHTWHITE_EX}Made by acee
-{Fore.WHITE} | |_| | | |     | |__   | |__                                                    {Fore.LIGHTWHITE_EX}discord.gg/aceex
-{Fore.WHITE} |  _  | | |     |  __|  |  __|                                                    
-{Fore.WHITE} | | | | | |__   | |__   | |__   
-{Fore.WHITE} |_| |_|  \___|  |____|  |____|
-
 console.debug("Updating models list...")
 r = httpx.get("https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml").text
 
@@ -35,7 +28,7 @@ f.close()
 console.success("Updated models list!", "Starting program...")
 time.sleep(3)
 os.system("cls")
-print(banner)
+clear()
 class Booster:
   def __init__(self):
     self.start = time.time()
