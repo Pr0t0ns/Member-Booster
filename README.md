@@ -18,9 +18,9 @@ They sell the source for 40$ and scam their customers💀
 
 ### 〢 Setting Up
 
-1. Put ur webhook at hook = ""
-2. and run main.py
-3. Obfuscation: https://github.com/billythegoat356/Hyperion
+1. pip install -r requirements.txt
+2. put proxies and change config to ur settings
+3. run all .bat files enjoy!
 
 ### 〢 preview
 
